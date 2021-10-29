@@ -2,6 +2,8 @@
 
 Aktuell unterstützen wir nur den Binance Exchange
 
+<input id="saveBinanceApiKey" type="text" placeholder="Binance Api Key"></input> <button>Speichern</button>
+
 ## Depot
 
 | Coin | Symbol | Stückzahl | Aktueller Kurs / Wert | Einstandskurs / -wert | +/- in % |
@@ -19,5 +21,13 @@ Aktuell unterstützen wir nur den Binance Exchange
 </style>
 
 <script>
-  console.log("Hello World")
+  var save_button = document.getElementById('Save')
+  save_button.onclick = saveData;
+
+  function saveData(){
+    var input = document.getElementById("saveBinanceApiKey");
+    localStorage.setItem("binanceApiKey", input.value);
+    var storedValue = localStorage.getItem("binanceApiKey");
+    console.log("binanceApiKey: " + storedValue);
+  }
 </script>
