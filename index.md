@@ -1,8 +1,8 @@
-Cryptocurrency Depot Viewer
+# Cryptocurrency Depot Viewer
 
 Currently we only support the Binance Exchange.
 
-### Depot
+## Depot
 
 Column 1 | Column 2 | Column 3 
 ---
