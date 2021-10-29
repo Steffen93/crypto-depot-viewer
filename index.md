@@ -15,12 +15,14 @@ Aktuell unterstützen wir nur den Binance Exchange
     background-image: none;
     background-color: orange;
   }
-  h1 h2 h3 h4 h5 {
+  h1, h2, h3, h4, h5 {
     color: inherit;
   }
 </style>
 
 <script>
+  var key_field = document.getElementById('saveBinanceApiKey');
+  key_field.value = localStorage.getItem("binanceApiKey") | "";
   var save_button = document.getElementById('Save')
   save_button.onclick = saveData;
 
@@ -30,4 +32,5 @@ Aktuell unterstützen wir nur den Binance Exchange
     var storedValue = localStorage.getItem("binanceApiKey");
     console.log("binanceApiKey: " + storedValue);
   }
+  
 </script>
