@@ -21,8 +21,7 @@ Aktuell unterstützen wir nur den Binance Exchange
 </style>
 
 <script>
-  var key_field = document.getElementById('saveBinanceApiKey');
-  key_field.value = localStorage.getItem("binanceApiKey");
+  document.getElementById("saveBinanceApiKey").value = localStorage.getItem("binanceApiKey");
   var save_button = document.getElementById('Save')
   save_button.onclick = saveData;
 
@@ -30,7 +29,6 @@ Aktuell unterstützen wir nur den Binance Exchange
     var input = document.getElementById("saveBinanceApiKey");
     localStorage.setItem("binanceApiKey", input.value);
     var storedValue = localStorage.getItem("binanceApiKey");
-    console.log("binanceApiKey: " + storedValue);
   }
   
 </script>
