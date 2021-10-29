@@ -9,7 +9,7 @@ Aktuell unterstützen wir nur den Binance Exchange
 | k.D. | k. D.  | k. D.     | k. D.                 | k. D.                 | k. D.    |
 
 <style type="text/css">
-  header {
+  .page-header {
     background-image: none;
     background-color: orange;
   }
