@@ -2,7 +2,7 @@
 
 Aktuell unterstützen wir nur den Binance Exchange
 
-<input id="saveBinanceApiKey" type="text" placeholder="Binance Api Key"></input> <button>Speichern</button>
+<input id="saveBinanceApiKey" type="text" placeholder="Binance Api Key"/> <button id="Save">Speichern</button>
 
 ## Depot
 
