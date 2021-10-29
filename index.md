@@ -13,6 +13,9 @@ Aktuell unterstützen wir nur den Binance Exchange
     background-image: none;
     background-color: orange;
   }
+  h1 h2 h3 h4 h5 {
+    color: inherit;
+  }
 </style>
 
 <script>
