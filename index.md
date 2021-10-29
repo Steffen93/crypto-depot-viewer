@@ -8,6 +8,13 @@ Aktuell unterstützen wir nur den Binance Exchange
 |:-----|:-------|:----------|:----------------------|:----------------------|:---------|
 | k.D. | k. D.  | k. D.     | k. D.                 | k. D.                 | k. D.    |
 
+<style>
+  header: {
+    background-image: none;
+    background-color: orange;
+  }
+</style>
+
 <script>
   console.log("Hello World")
 </script>
