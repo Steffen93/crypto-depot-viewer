@@ -1,12 +1,12 @@
 # Cryptocurrency Depot Viewer
 
-Currently we only support the Binance Exchange.
+Aktuell unterstützen wir nur den Binance Exchange
 
 ## Depot
 
-| Column 1 | Column 2 | Column 3 |
-|:---------|:---------|:---------|
-| Entry 1  | Entry 2  | Entry 3  |
+| Coin | Symbol | Stückzahl | Aktueller Kurs / Wert | Einstandskurs / -wert | +/- in % |
+|:-----|:-------|:----------|:----------------------|:----------------------|:---------|
+| k.D. | k. D.  | k. D.     | k. D.                 | k. D.                 | k. D.    |
 
 <script>
   console.log("Hello World")
